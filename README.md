@@ -71,7 +71,10 @@ The data is stored in JSON format in the `menu.json` file. Each product is repre
 
 ## Example
 
-```json```
+####json
+
+
+```bash
 {
     "name": "Спрайт® середній",
     "desc": "Всесвітньо відомий освіжаючий напій.",
@@ -84,3 +87,4 @@ The data is stored in JSON format in the `menu.json` file. Each product is repre
     "salt": "0.0г",
     "portion": "400мл"
 }
+```
