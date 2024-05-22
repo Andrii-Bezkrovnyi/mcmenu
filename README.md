@@ -46,9 +46,19 @@ The code consists of three main endpoints:
     python mcmenu_parser.py
     ```
 
-5. Run the server using `python main.py`.
+5. Install live-server:
 
-6. Access the endpoints using your browser or an API client (e.g., Postman).
+    ```bash
+    npm install live-server
+    ```
+
+6. Run the server using `python main.py`.
+
+7. Run live-server using `live-server --port=5500`.
+
+8. Access the endpoints using your browser or an API client (e.g., Postman).
+
+9. Open the site with products using url `http://127.0.0.1:5500/index.html`
 
 ### Endpoints
 
