@@ -37,7 +37,7 @@ The code consists of three main endpoints:
 3. Create virtual environment:
 
    ```bash
-    python -n venv venv
+    python -m venv venv
    ```
 4. Enter in virtual environment in Linux:
 
