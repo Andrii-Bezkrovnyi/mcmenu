@@ -48,31 +48,31 @@ The code consists of three main endpoints:
    ```bash
     venv\Scripts\activate
    ```
-6. Install the required dependencies:
+5. Install the required dependencies:
 
     ```bash
     pip install -r requirements.txt
     ```
 
-7. Run the parser script:
+8. Run the parser script:
 
     ```bash
     python mcmenu_parser.py
     ```
 
-8. Install live-server:
+9. Install live-server:
 
     ```bash
     npm install live-server
     ```
 
-9. Run the server using `python main.py`.
+10. Run the server using `python main.py`.
 
-10. Run live-server using `live-server --port=5500`.
+11. Run live-server using `live-server --port=5500`.
 
-11. Access the endpoints using your browser or an API client (e.g., Postman).
+12. Access the endpoints using your browser or an API client (e.g., Postman).
 
-12. Open the site with products using url `http://127.0.0.1:5500/index.html`
+13. Open the site with products using url `http://127.0.0.1:5500/index.html`
 
 ### Endpoints
 
