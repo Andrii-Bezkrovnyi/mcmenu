@@ -34,31 +34,45 @@ The code consists of three main endpoints:
     cd mcmenu
     ```
 
-3. Install the required dependencies:
+3. Create virtual environment:
+
+   ```bash
+    python -n venv venv
+   ```
+4. Enter in virtual environment in Linux:
+
+   ```bash
+    source venv/bin/activate
+   ```
+   - in Windows
+   ```bash
+    venv\Scripts\activate
+   ```
+6. Install the required dependencies:
 
     ```bash
     pip install -r requirements.txt
     ```
 
-4. Run the parser script:
+7. Run the parser script:
 
     ```bash
     python mcmenu_parser.py
     ```
 
-5. Install live-server:
+8. Install live-server:
 
     ```bash
     npm install live-server
     ```
 
-6. Run the server using `python main.py`.
+9. Run the server using `python main.py`.
 
-7. Run live-server using `live-server --port=5500`.
+10. Run live-server using `live-server --port=5500`.
 
-8. Access the endpoints using your browser or an API client (e.g., Postman).
+11. Access the endpoints using your browser or an API client (e.g., Postman).
 
-9. Open the site with products using url `http://127.0.0.1:5500/index.html`
+12. Open the site with products using url `http://127.0.0.1:5500/index.html`
 
 ### Endpoints
 
